@@ -1,0 +1,25 @@
+# Entornos virtuales (el peso pesado)
+env/
+venv/
+.env/
+__pycache__/
+*.py[cod]
+
+# Variables de entorno (¡Seguridad!)
+.env
+.flaskenv
+
+# IDEs y Editores
+.vscode/
+.idea/
+.DS_Store
+
+# Distribución / Paquetes
+dist/
+build/
+*.egg-info/
+
+# Tests y Cobertura
+.pytest_cache/
+.coverage
+htmlcov/
